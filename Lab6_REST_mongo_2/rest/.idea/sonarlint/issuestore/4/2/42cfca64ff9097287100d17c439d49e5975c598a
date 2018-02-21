@@ -1,0 +1,6 @@
+
+‹squid:S1319"qThe type of the "grades" object should be an interface such as "List" rather than the implementation "ArrayList".(Èúö™ûÿÿÿÿ
+Rsquid:CallToDeprecatedMethod",Remove this use of "name"; it is deprecated.(Ïİš
+Tsquid:CallToDeprecatedMethod".Remove this use of "unique"; it is deprecated.(Ïİš
+Šsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‚¢üÿÿÿÿÿ
+xsquid:S2637"c"name" is marked "javax.validation.constraints.NotNull" but is not initialized in this constructor.(ÑèŞ 

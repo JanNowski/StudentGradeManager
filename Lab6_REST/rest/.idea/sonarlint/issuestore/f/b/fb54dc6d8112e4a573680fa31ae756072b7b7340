@@ -1,0 +1,6 @@
+
+…squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(©·ñô
+Œsquid:S1319"rThe type of the "courses" object should be an interface such as "List" rather than the implementation "ArrayList".(Éñ„ëûÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(Â±§Ôùÿÿÿÿ
+›squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÁºÈìùÿÿÿÿ
++squid:S1700"Rename field "courses"(¦®ÎÉ

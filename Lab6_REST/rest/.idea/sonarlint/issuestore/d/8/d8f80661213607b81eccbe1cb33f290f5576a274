@@ -1,0 +1,5 @@
+
+Hsquid:S1068".Remove this unused "dateFormat" private field.(ß˜©şÿÿÿÿ
+Šsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(í§İüÿÿÿÿ
+isquid:S2259"OA "NullPointerException" could be thrown; "getStudentByIndex" is nullable here.(üóÿÂùÿÿÿÿ
+1squid:S1700"Rename field "students"(…ŸîÁşÿÿÿÿ

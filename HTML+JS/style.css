@@ -1,0 +1,172 @@
+html {
+    font-family: Palatino Linotype;
+    height: 100%;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body > div.page-body > section {
+    display: none;
+}
+
+body > div.page-body > section:target {
+    display: block;
+}
+
+.page-header {
+	text-align: center;
+    color: #FFF;
+    padding: 0 20px;
+
+    background: linear-gradient(90deg, #3A3DFF 0%, #B29100 100%);
+}
+
+.page-header > h1 {
+    margin-left: 20px;
+}
+
+.page-header > img {
+    height: 50px;
+    width: 50px;
+}
+
+.page-footer {
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
+
+    background: linear-gradient(45deg, #3A3DFF 0%, #B29100 100%);
+}
+
+.page-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-body header h2 {
+    font-family: Book Antiqua;
+}
+
+.page-body table td {
+    font-family: Palatino Linotype;
+}
+
+nav {
+    background-color: #EBECEC;
+    flex: 1 0 200px;
+	text-align: center;
+}
+
+nav > ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+section {
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    flex: 1 1 85%;
+}
+
+section > table td {
+    text-align: center;
+    padding: 10px;
+}
+
+section > table tr > td:last-of-type {
+    min-width: 200px;
+    justify-content: center; 
+    display: flex;
+}
+
+section > table th {
+    text-align: center;                 
+    padding: 1em;
+    background-color: #3A3DFF;
+    color: white; 
+}
+
+section > table tr:nth-child(even),
+section > table tr:nth-child(even) input {
+    background-color: #eee;
+}
+
+section > table tr:nth-child(odd) {
+    background-color:#fff;
+}
+
+section > table tr:hover {
+    background-color: #FFE9D3;
+}
+
+section > table {
+    width: 100%;
+}
+
+section > table input {
+    font-family: Palatino Linotype;
+    font-size: 15px;
+}
+
+section > table tbody select {
+    width: 100%;
+}
+
+section > table tbody input {
+    width: 100%;
+
+    outline: none;
+    border: none;
+}
+
+input:invalid {
+    border: 1px solid;
+    border-color: #C00000;
+}
+
+@media print { 
+    .page-header,
+    .page-footer,
+    table tr th input,
+    .add-row,
+    nav {
+        display: none;
+    }
+
+    * {
+        color:black !important;
+        background-color: white !important;
+    }
+
+    table tr td:last-child,
+    table tr th:last-child {
+        display: none !important;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table tbody tr {
+        border-bottom: 1px solid black !important;
+        border-top: 1px solid black !important;
+    }
+}

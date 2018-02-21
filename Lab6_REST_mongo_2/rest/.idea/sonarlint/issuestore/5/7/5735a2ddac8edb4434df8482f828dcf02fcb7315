@@ -1,0 +1,9 @@
+
+Rsquid:CallToDeprecatedMethod",Remove this use of "Date"; it is deprecated.(ñÖ¢½
+Rsquid:CallToDeprecatedMethod",Remove this use of "Date"; it is deprecated.(ñÔÝþ
+Osquid:S1118":Add a private constructor to hide the implicit public one.(õîªç
+asquid:S1192"GDefine a constant instead of duplicating this literal "grades" 6 times.(–¼ÆÍüÿÿÿÿ
+¥%squid:RedundantThrowsDeclarationCheck"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ÛØŠÉÿÿÿÿÿ
+csquid:S1192"IDefine a constant instead of duplicating this literal "students" 4 times.(êûÛÓúÿÿÿÿ
+Rsquid:CallToDeprecatedMethod",Remove this use of "Date"; it is deprecated.(Ð“¾û
+ %squid:RedundantThrowsDeclarationCheck"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(“íÔƒ
